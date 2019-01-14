@@ -21,7 +21,7 @@ from scipy.spatial.distance import squareform
 from sklearn.metrics import euclidean_distances
 
 #make the UI
-uiFile = '/Users/helgestein/Documents/PythonScripts/naryviz/naryvizui.ui' # Enter file here.
+uiFile = 'naryvizui.ui' # Enter file here.
 Ui_MainWindow, QtBaseClass = uic.loadUiType(uiFile)
 
 class MainWindow(QMainWindow, Ui_MainWindow):
